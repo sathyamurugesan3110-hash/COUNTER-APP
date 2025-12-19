@@ -1,0 +1,38 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-color: rgb(211, 51, 171);
+
+}
+
+#container{
+    background-color: white;
+    text-align: center;
+    padding: 15px 50px;
+    font-size:30px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius:10px;
+    box-shadow: 4px 5px 10px black;
+}
+
+#btn-container{
+    display:flex;
+    width: 150px;
+    justify-content:space-between;
+    padding:70px
+}
+
+button{
+    font-size: 25px;
+    padding:5px 8px;
+    border-radius: 5px;
+    background-color: wheat;
+    
+}
+
+p{
+    text-align: center;
+    font-size: 50px;
+}
